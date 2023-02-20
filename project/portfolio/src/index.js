@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Test from './views/test.js'
+// import Type from './views/Type.ts'
 import reportWebVitals from './reportWebVitals';
 // 라우터
 import { BrowserRouter } from 'react-router-dom'
@@ -10,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Test path='/' />
+    {/* <Type path='/test' /> */}
   </BrowserRouter>
 );
 
